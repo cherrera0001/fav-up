@@ -22,7 +22,7 @@ def get_favicon_hash(site_url):
         print("Sugerencia: asegúrate de que tu clave de API sea válida y que la cadena de consulta sea correcta.")
 
 # Ejemplo de uso
-site_url = "https://controltrafico-staging.falabella.com/shiftmanager"
+site_url = "web-sote"
 favicon_hash = get_favicon_hash(site_url)
 if favicon_hash is not None:
     print(f"Hash del favicon de {site_url}: {favicon_hash}")
